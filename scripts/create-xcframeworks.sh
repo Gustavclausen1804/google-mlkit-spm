@@ -81,7 +81,7 @@ zip_xcframework() {
     echo ""
 }
 
-FRAMEWORK_TARGETS="MLImage MLKitBarcodeScanning MLKitCommon MLKitVision"
+FRAMEWORK_TARGETS="MLImage MLKitBarcodeScanning MLKitCommon MLKitVision Translate LanguageID"
 SOURCE_TARGETS="GoogleToolboxForMac GoogleUtilitiesComponents Protobuf"
 
 rm -rf "$ARCHIVE_PATH"
