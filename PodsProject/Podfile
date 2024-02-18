@@ -16,6 +16,9 @@ target 'MLKitSPM' do
   # Pods for MLKitSPM
 
   pod 'GoogleMLKit/BarcodeScanning', '~> 3.2.0'
+  pod 'GoogleMLKit/Translate', '3.2.0'
+  pod 'GoogleMLKit/LanguageID', '3.2.0'
+
 
 end
 
